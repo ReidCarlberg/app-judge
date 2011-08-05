@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @entry.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @entry.description %>
+</p>
+
+<p>
+  <b>Team:</b>
+  <%= @entry.team %>
+</p>
+
+<p>
+  <b>Appexchange:</b>
+  <%= @entry.appexchange %>
+</p>
+
+<p>
+  <b>Github:</b>
+  <%= @entry.github %>
+</p>
+
+<p>
+  <b>Video:</b>
+  <%= @entry.video %>
+</p>
+
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
